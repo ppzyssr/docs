@@ -1,0 +1,26 @@
+// place your custom styles here
+.vp-blog-hero-description {
+  font-style: italic;
+
+  position: relative;
+}
+
+.vp-blog-hero-description:after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  content: "";
+  width: 0;
+  animation: toFitContent 1s infinite;
+}
+
+@keyframes toFitContent {
+  from {
+    border-right: none;
+  }
+
+  to {
+    border-right: 3px solid #cbcbcb;
+  }
+}
