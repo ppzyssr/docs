@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-184f4da6","path":"/intro.html","title":"关于我","lang":"zh-CN","frontmatter":{"article":false,"timeline":false,"cover":"/assets/images/cover1.jpg","index":false},"headers":[],"git":{},"readingTime":{"minutes":0.08,"words":24},"filePathRelative":"intro.md","excerpt":"<h1> 关于我</h1>\\n<p>​\\t\\t哈哈哈,这个人什么都没有留下。。。</p>\\n"}');export{e as data};
